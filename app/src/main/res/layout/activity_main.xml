@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yesil4">
+
+    <ImageButton
+        android:id="@+id/btn_record"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:background="#00FFFFFF"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/record" />
+
+    <TextView
+        android:id="@+id/nameApp"
+        android:layout_width="360dp"
+        android:layout_height="166dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/moderna"
+        android:lineSpacingExtra="-35dp"
+        android:text="Parkinson Detection"
+        android:textAlignment="center"
+        android:textColor="@color/yesil3"
+        android:textIsSelectable="false"
+        android:textSize="70sp" />
+
+    <Chronometer
+        android:id="@+id/timer"
+        android:layout_width="301dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/right"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/yesil3"
+        android:textIsSelectable="false"
+        android:textSize="90sp" />
+
+    <TextView
+        android:id="@+id/sonuc"
+        android:layout_width="360dp"
+        android:layout_height="166dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="640dp"
+        android:fontFamily="@font/right"
+        android:lineSpacingExtra="0dp"
+        android:text="Kayıt Alınıyor..."
+        android:textAlignment="center"
+        android:textColor="@color/yesil3"
+        android:textIsSelectable="false"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/kayit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:fontFamily="@font/right"
+        android:lineSpacingExtra="0dp"
+        android:text="Kayıt"
+        android:textAlignment="center"
+        android:textColor="@color/yesil3"
+        android:textIsSelectable="false"
+        android:textSize="30sp" />
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="3dp"
+        android:background="@color/yesil3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"/>
+
+
+    <ImageButton
+        android:id="@+id/btn_warning"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#00FFFFFF"
+        android:padding="5dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/warning" />
+
+
+</RelativeLayout>
+
